@@ -1,4 +1,4 @@
-import healthyUser from '../index';
+import healthyUser from '../checking_health';
 
 test('Checking level health', () => {
     const res = healthyUser({name: 'Mark', health: 51});
